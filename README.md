@@ -1,4 +1,4 @@
-# 4N4M DDOS - Stress Testing Tool
+# uchil404-ddos - Stress Testing Tool
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
